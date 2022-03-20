@@ -1,0 +1,330 @@
+
+/* Title & menu*/
+.sakura_title {
+    margin: 40px 0px 40px 0px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    font-family: serif;
+    line-height: 70px;
+    background-color: rgb(205, 238, 255);
+    color: rgb(8, 70, 112);
+}
+.ecowin_title {
+    font-size: 30px;
+    text-align: center;
+    margin:30px 0px 30px 0px;
+    font-family: serif;
+}
+.menu {
+    text-align: left;
+}
+.menu > a {
+    display: inline-block;
+    height: 40px;
+    width: 150px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    line-height: 39px;
+    text-align: center;
+}
+
+/* ecowin_list */
+.ecowin_main, .ecowin_map, .menu {
+    width: 90%;
+    margin: 3% 5% 3% 5%;
+}
+#ecowin_list_selecter {
+    text-align: right;
+    margin-bottom: 20px;
+    width: 100%;
+    /* height: 55px; */
+    text-align: left;
+}
+#ecowin_list_selecter > form > select{
+    box-sizing: border-box;
+    height: 35px;
+    /* float: left; */
+    font-family:serif;
+    font-size: 20px;
+}
+.ecowin_list_input {
+    box-sizing: border-box;
+    height: 35px;
+    font-size: 20px;
+    font-family:serif;
+    /* float: left; */
+}
+.ecowin_list_input2 {
+    box-sizing: border-box;
+    height: 35px;
+    font-size: 20px;
+    font-family:serif;
+}
+#ecowin_list {
+    overflow: auto;
+    /* height: 510px; */
+}
+#ecowin_list > table{
+    border:2px solid rgb(0, 0, 0);
+    /* width: 350%; */
+    text-align: center;
+}
+#ecowin_list > table > tbody > tr {
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid rgb(0, 0, 0);
+    white-space:nowrap;
+}
+#ecowin_list > table > tbody > tr > th
+,#ecowin_list > table > tbody > tr > td {
+    border-right: 1px solid rgb(0, 0, 0);
+}
+#ecowin_list > table > tbody > tr > th {
+    font-size: 20px;
+    font-family:serif;
+    padding: 0px 10px 0px 10px;
+    background-color: rgb(205, 238, 255);
+    vertical-align: middle;
+}
+#ecowin_list > table > tbody > tr > td {
+    font-size: 15px;
+    font-family:serif;
+    padding: 0px 5px 0px 5px;
+}
+.ecowin_text_center {
+    text-align: center;
+}
+#ecowin_page {
+    margin: 10px auto 0px auto;
+    text-align: center;
+    font-size: 25px;
+    font-family: serif;
+}
+#ecowin_page > #ecowin_page_now {
+    font-size: 28px;
+    color: rgb(0, 0, 255);
+}
+.update_num {
+    color: rgb(0, 0, 255);
+}
+#ecowin_list_selecter > form > span {
+    text-align: left;
+    font-family: serif;
+}
+/* MAP */
+.wirte_map{
+    display: inline-block;
+    width:100%;
+    height:700px;
+    border:2px solid rgb(0,0,0);
+    margin-bottom: 200px;
+}
+.ecowin_map {
+    text-align: center;
+}
+.ecowin_add_selected {
+    margin: 50px 0px 50px 0px;
+    text-align: center;
+}
+.ecowin_add_selected > input {
+    box-sizing: border-box;
+    height: 40px;
+}
+.address_select {
+    width: 50%;
+    text-align: center;
+    font-size: 18px;
+}
+.address_select_input {
+    font-size: 20px;
+    font-family: serif;
+}
+
+/* API가 지정한 클래스명 원래는 해서는 안되는 방법*/
+.yolp-layer > div > .yolp-tlchp {
+    font-size: 15px;
+    font-family: serif;
+}
+
+/* エコウィンWRITE border */
+.ecowin_main {
+    box-shadow: 0px 0px 20px -5px;
+    border-radius: 10px;
+    padding: 20px 10px 35px 10px;
+}
+
+.ecowin_wirte_border > dl
+,#parah > dl {
+    /* height: 40px; */
+    margin: 15px 0px 15px 0px;
+}
+.ecowin_wirte_border > dl > dt
+,.ecowin_wirte_border > dl > dd
+,#parah > dl > dt
+,#parah > dl > dd {
+    display: inline-block;
+}
+
+.ecowin_wirte_border > dl > dt
+,#parah > dl > dt {
+    width: 30%;
+    font-size: 25px;
+    text-align: right;
+    font-family:serif;
+}
+#parah > dl > dd {
+    margin-left: 5px;
+}
+.ecowin_wirte_border > dl > dd
+,#parah > dl > dd {
+    width: 65%;
+}
+
+.ecowin_wirte_border > dl > dd > input {
+    box-sizing: border-box;
+    width: 70%;
+    height: 30px;
+    font-size: 16px;
+}
+
+.ecowinr_write_select {
+    width: 70%;
+}
+
+.select_height {
+    height: 30px;
+    font-size: 18px;
+}
+
+.ecowin_wirte_border > dl > dd > .ecowin_product_num
+,.ecowin_wirte_border > #parah > dl > dd > .ecowin_product_num {
+    box-sizing: border-box;
+    width: 80px;
+    height: 30px;
+}
+
+#write_submit {
+    text-align: center;
+}
+
+#write_submit > input {
+    font-size: 20px;
+    font-family: serif;
+}
+.ecowin_wirte_border > .write_radio > dd > input{
+    width: 20px;
+    height: 20px;
+}
+.ecowin_wirte_border > dl > span {
+    display: inline-block;
+    padding-left: 31%;
+    margin-top: 3px;
+    color: #FF0000;
+}
+/* 내가정한 클래스명이 아닌 API에서 정해진 이름 //원래는 지양하지 않은방법 */
+/* 모바일로 볼시 야후지도로 이동하는 이상한 링크 강제적으로 표시금지 */
+.yolp-ymapbanner
+,.yolp-logo
+,.yjm-copyright {
+    display: none;
+}
+/* 작은화면용 모바일용 크기 小さい画面用モバイル用 */
+@media screen and (max-width : 1200px){
+
+}
+
+@media screen and (max-width: 700px){
+    /* list */
+    .ecowin_list_input
+    ,.ecowin_list_input2 {
+        width: 90%;
+        margin: 5px 0px 5px 0px;
+    }
+
+    #ecowin_list > table {
+        margin: 0px 10px 0px 10px;
+    }
+    /* #ecowin_list_selecter {
+        height: 230px;
+    } */
+    .wirte_map {
+        height: 400px;
+    }
+    .ecowin_wirte_border > dl > dd > input {
+        width: 100%;
+        /* margin: 5px 0px 5px 0px; */
+    }
+    /* API고정 클래스 */
+    .yolp-noprint > div {
+        display: none;
+    }
+    .ecowin_main{
+        padding: 10px 0px 10px 0px;
+    }
+    #ecowin_list_selecter > form {
+        text-align: center;
+    }
+    #ecowin_list_selecter > form > select {
+        /* float: none; */
+        width: 90%;
+        margin:5px 0px 5px 0px;
+    }
+    #ecowin_page {
+        font-size: 15px;
+    }
+    #ecowin_page > #ecowin_page_now {
+        font-size: 18px;
+    }
+    /* .ecowin_list_input {
+        float: none;
+    } */
+
+    /* write_border */
+    .ecowin_wirte_border > dl {
+        height:inherit;
+    }
+    /* #parah > dl {
+        height:inherit;
+    } */
+    .ecowin_wirte_border > dl > dt
+    ,.ecowin_wirte_border > #parah >dl > dt  {
+        font-size: 15px;
+        /* width: 25%; */
+    }
+    .ecowinr_write_select {
+        width: 100%;
+    }
+    .ecowin_wirte_border > dl > dd > input {
+        font-size: 13px;
+    }
+    .select_height {
+        font-size: 13px;
+    }
+    #write_submit > input {
+        font-size: 15px;
+    }
+    .ecowin_wirte_border > dl {
+        margin: 20px 0px 20px 0px;
+    }
+    /* .address_select {
+        font-size: 10px;
+    } */
+    .address_select_input {
+        font-size: 15px;
+    }
+    .ecowin_wirte_border > .write_radio > dd {
+        font-size: 13px;
+    }
+}
+/* @media screen and (max-width: 530px){
+    #ecowin_list_selecter {
+        height: 200px;
+    }
+} */
+@media screen and (max-width: 450px){
+    .ecowin_wirte_border > dl > dt {
+        /* font-size: 15px; */
+        width: 30%;
+    }
+}
